@@ -1,10 +1,24 @@
 # Site name
-site_name: SITE NAME
-site_description: "SITE DESCRIPTION:" 
+site_name: Course Outlines
+site_description: "Various Course Outlines" 
 
 # Navigation menu
 nav:
-  - Welcome: index.md
+  - Overview: index.md
+  - IfATE:
+    - DA4-M2: ifate/da4m2.md
+    - DA4-M3: ifate/da4m3.md
+    - DE5-M2: ifate/de5m2.md
+  - Google:
+    - GCPFCI:   google/gcpfci.md
+    - GCPMDLDW: google/gcpmdldw.md
+    - GCPAMIL:  google/gcpamil.md
+  - Microsoft:
+    - AI-900: microsoft/ai-900.md
+    - DP-100: microsoft/dp-100.md
+    - DP-203: microsoft/dp-203.md
+    - DP-700: microsoft/dp-700.md
+    - PL-300: microsoft/pl-300.md
 
 # Theme
 theme:
@@ -12,7 +26,7 @@ theme:
       - tabs
     name: material
     icon:
-      logo: material/cloud
+      logo: material/table-of-contents
     static_templates:
       - 404.html
 
